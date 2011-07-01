@@ -24,8 +24,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 
 
-#PRODUCT_PACKAGES += \
-    openvpn
+PRODUCT_PACKAGES += \
+    DSPManager \
+    libcyanogen-dsp 
 
 # T-Mobile theme engine
 #include vendor/cyanogen/products/themes_common.mk
